@@ -1,0 +1,51 @@
+'''
+string :
+ it is nothing but
+ collection of characters
+
+'''
+# b='pythonlife'
+# a="pythonlife"
+# v='''pythonlife'''
+# print(type(b),type(a),type(v))
+'''
+lower
+upper
+endswith
+startwith
+replace
+find
+index
+count
+remove prefix
+remove suffix
+split
+strip
+rstrip
+lstrip
+'''
+pythonlife="     behara manoj kumar    "
+print(pythonlife.upper())
+print(pythonlife.lower())
+print(pythonlife.endswith("kumar"))
+print(pythonlife.startswith("behara"))
+print(pythonlife.find("kumar"))
+print(pythonlife.replace("kumar","mjkr"))
+print(pythonlife.index("kumar"))
+print(pythonlife.count("a"))
+print(pythonlife.removeprefix("behara"))
+print(pythonlife.removesuffix("kumar"))
+print(pythonlife.split())
+print(pythonlife.strip())
+print(pythonlife.rstrip())
+print(pythonlife.lstrip())
+
+
+
+
+
+
+
+
+
+
